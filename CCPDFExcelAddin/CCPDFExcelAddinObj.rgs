@@ -1,0 +1,51 @@
+HKCR
+{
+	CCPDFExcelAddin.CCPDFExcelAddinObj.1 = s 'CCPDFExcelAddinObj Class'
+	{
+		CLSID = s '{7A13F11B-2986-4C4C-82B4-D5FEA66BB36F}'
+	}
+	CCPDFExcelAddin.CCPDFExcelAddinObj = s 'CCPDFExcelAddinObj Class'
+	{
+		CLSID = s '{7A13F11B-2986-4C4C-82B4-D5FEA66BB36F}'
+		CurVer = s 'CCPDFExcelAddin.CCPDFExcelAddinObj.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {7A13F11B-2986-4C4C-82B4-D5FEA66BB36F} = s 'CCPDFExcelAddinObj Class'
+		{
+			ProgID = s 'CCPDFExcelAddin.CCPDFExcelAddinObj.1'
+			VersionIndependentProgID = s 'CCPDFExcelAddin.CCPDFExcelAddinObj'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{0BA12602-CB78-430F-AA09-77A5F1CF29C0}'
+		}
+	}
+}
+HKCU
+{
+  Software
+  {
+    Microsoft
+    {
+      Office
+      {
+        Excel
+        {
+          Addins
+          {
+            'CCPDFExcelAddin.CCPDFExcelAddinObj'
+            {
+              val FriendlyName = s 'CCPDFConverter Excel Addin'
+              val Description = s 'A Excel addin helper for CCPDFConverter - allows printing into a PDF file while preserving the links!'
+              val LoadBehavior = d '00000003'
+              val CommandLineSafe = d '00000001'
+            }
+          }
+        }
+      }
+    }
+  }
+}

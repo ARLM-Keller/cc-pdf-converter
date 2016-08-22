@@ -1,0 +1,1 @@
+This file will pop up following the installation

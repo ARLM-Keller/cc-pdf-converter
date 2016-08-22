@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{c8e0123c-a057-4127-b60c-d960661743a2}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{b838a5d9-871b-448e-87f8-228bdc4892c5}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Common Files">
+      <UniqueIdentifier>{881439ba-0893-4ff3-8b0c-57f591a4a2b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CCPrintInstallDll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CCPrintInstallFunctions.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CCPrintRegistry.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CCTChar.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Helpers.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\PrinterInstall.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="precomp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CCCommon.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CCPDFVersion.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CCPrintInstallFunctions.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CCPrintRegistry.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CCTChar.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Helpers.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\PrinterInstall.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\XL2PDFVersion.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CCPrintInstallDll.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CCPrintInstallDll.def">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="XL2PrintInstallDll.def">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CCPrintInstallDll.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="XL2PrintInstallDll.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

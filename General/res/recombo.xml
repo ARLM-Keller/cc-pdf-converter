@@ -1,0 +1,62 @@
+<licenseclass id="recombo">
+
+  <label xml:lang="en">Sampling</label>
+
+  <field id="jurisdiction">
+
+    <label xml:lang="en">Jurisdiction of your license:</label>
+
+    <description xml:lang="en">If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.</description>
+
+    <type>enum</type>
+
+    <enum id="">
+
+
+      <label xml:lang="en">Generic</label>
+
+    </enum>
+
+    <enum id="br">
+
+      <label xml:lang="en">Brazil</label>
+
+    </enum>
+
+    <enum id="tw">
+
+      <label xml:lang="en">Taiwan</label>
+
+
+    </enum>
+
+  </field>
+
+  <field id="sampling">
+
+    <label xml:lang="en">What flavor of Sampling license?</label>
+
+    <description xml:lang="en">The Sampling Flavor determines how much freedom licensees have. Sampling only allows pieces to be used and prohibits sharing of the entire work.  Sampling Plus allows licensees to take and transform pieces of the work, as well as share the entire work for non-commercial purposes.  Noncommercial Sampling Plus further restricts the Sampling Plus license by only authorizing non-commercial derivatives to be created from the pieces of your work.</description>
+
+    <type>enum</type>
+
+    <enum id="sampling">
+
+      <label xml:lang="en">Sampling</label>
+
+    </enum>
+    <enum id="samplingplus">
+
+      <label xml:lang="en">Sampling Plus</label>
+
+    </enum>
+    <enum id="ncsamplingplus">
+
+      <label xml:lang="en">NonCommercial Sampling Plus</label>
+
+
+    </enum>
+  </field>
+
+</licenseclass>
+

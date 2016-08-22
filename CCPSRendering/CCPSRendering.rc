@@ -1,0 +1,101 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "\r\n"
+    "#ifdef CC_PDF_CONVERTER\r\n"
+    "#include ""CCPDFPSRendering.rc2""\r\n"
+    "#else\r\n"
+    "#include ""XL2PDFPSRendering.rc2""\r\n"
+    "#endif\r\n"
+    "\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDPNG_BY                PNG     DISCARDABLE     "..\\General\\res\\By.png"
+IDPNG_BY_NC             PNG     DISCARDABLE     "..\\General\\res\\ByNc.png"
+IDPNG_BY_NC_ND          PNG     DISCARDABLE     "..\\General\\res\\ByNcNd.png"
+IDPNG_BY_NC_SA          PNG     DISCARDABLE     "..\\General\\res\\ByNcSa.png"
+IDPNG_BY_ND             PNG     DISCARDABLE     "..\\General\\res\\ByNd.png"
+IDPNG_BY_SA             PNG     DISCARDABLE     "..\\General\\res\\BySa.png"
+IDPNG_SAMPLING          PNG     DISCARDABLE     "..\\General\\res\\Sampling.png"
+IDPNG_SAMPLING_PLUS     PNG     DISCARDABLE     "..\\General\\res\\SamplingPlus.png"
+IDPNG_SAMPLING_PLUS_NC  PNG     DISCARDABLE     "..\\General\\res\\SamplingPlusNC.png"
+IDPNG_SOMERIGHTS        PNG     DISCARDABLE     "..\\General\\res\\Somerights.png"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef CC_PDF_CONVERTER
+#include "CCPDFPSRendering.rc2"
+#else
+#include "XL2PDFPSRendering.rc2"
+#endif
+
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

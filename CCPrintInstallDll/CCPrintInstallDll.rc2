@@ -1,0 +1,82 @@
+//
+// CCPDFExcelConverter.RC2 - resources Microsoft Visual C++ does not edit directly
+//
+
+/*
+ * CC PDF Converter: Windows PDF Printer with Creative Commons license support
+ * Copyright (C) 2007-2010 Guy Hachlili <hguy@cogniview.com>, Cogniview LTD.
+ * 
+ * This file is part of CC PDF Converter.
+ * 
+ * CC PDF Converter is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ * 
+ * CC PDF Converter is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>. * 
+ */
+
+#ifdef APSTUDIO_INVOKED
+	#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Add manually edited resources here...
+
+/////////////////////////////////////////////////////////////////////////////
+#include "CCPDFVersion.h"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION CC_PDF_VERSION_N
+ PRODUCTVERSION CC_PDF_VERSION_N
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "Cogniview\0"
+            VALUE "FileDescription", "CC PDF Converter Install helper\0"
+            VALUE "FileVersion", CC_PDF_VERSION_T "\0"
+            VALUE "InternalName", "CCPrintInstallDll\0"
+            VALUE "LegalCopyright", "GPL\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "CCPrintInstallDll.dll\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "CC PDF Converter\0"
+            VALUE "ProductVersion", CC_PDF_VERSION_T "\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+#endif    // !_MAC
+
+

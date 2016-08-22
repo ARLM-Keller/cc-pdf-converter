@@ -1,0 +1,199 @@
+<licenseclass id="standard">
+
+  
+    <label xml:lang="en">Creative Commons</label>
+  
+    <field id="commercial">
+   
+    <label xml:lang="en">Allow commercial uses of your work?</label>
+   
+    <description xml:lang="en">The licensor permits others to copy, distribute, display, and perform the work. In return, licensees may not use the work for commercial purposes -- unless they get the licensor's permission.</description>
+   
+    <type>enum</type>
+   <enum id="y">
+     
+     <label xml:lang="en">Yes</label>
+     
+     </enum>
+   <enum id="n">
+     
+     <label xml:lang="en">No</label>
+   
+     </enum>
+  </field>
+
+  <field id="derivatives">
+     
+   <label xml:lang="en">Allow modifications of your work?</label>
+   
+   <description xml:lang="en">The licensor permits others to copy, distribute, display and perform only unaltered copies of the work -- not derivative works based on it.</description>
+   
+   <type>enum</type>
+   <enum id="y">
+     
+     <label xml:lang="en">Yes</label>
+   
+     </enum>
+   <enum id="sa">
+     
+     <label xml:lang="en">ShareAlike</label>
+   
+     </enum>
+   <enum id="n">
+     
+     <label xml:lang="en">No</label>
+   
+     </enum>
+  </field>
+
+  <field id="jurisdiction">
+     
+   <label xml:lang="en">Jurisdiction of your license:</label>
+   
+   <description xml:lang="en">If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.</description>
+   
+   <type>enum</type>
+   <enum id="">
+     
+       <label xml:lang="en">Generic</label>
+     
+       </enum>
+   <enum id="ar">
+     
+       <label xml:lang="en">Argentina</label>
+     
+       </enum><enum id="au">
+     
+       <label xml:lang="en">Australia</label>
+     
+       </enum><enum id="at">
+     
+       <label xml:lang="en">Austria</label>
+     
+       </enum><enum id="be">
+     
+       <label xml:lang="en">Belgium</label>
+     
+       </enum><enum id="br">
+     
+       <label xml:lang="en">Brazil</label>
+     
+       </enum><enum id="bg">
+     
+       <label xml:lang="en">Bulgaria</label>
+     
+       </enum><enum id="ca">
+     
+       <label xml:lang="en">Canada</label>
+     
+       </enum><enum id="cl">
+     
+       <label xml:lang="en">Chile</label>
+     
+       </enum><enum id="cn">
+     
+       <label xml:lang="en">Mainland China</label>
+     
+       </enum><enum id="co">
+     
+       <label xml:lang="en">Colombia</label>
+     
+       </enum><enum id="hr">
+     
+       <label xml:lang="en">Croatia</label>
+     
+       </enum><enum id="hu">
+     
+       <label xml:lang="en">Hungary</label>
+     
+       </enum><enum id="dk">
+     
+       <label xml:lang="en">Denmark</label>
+     
+       </enum><enum id="fi">
+     
+       <label xml:lang="en">Finland</label>
+     
+       </enum><enum id="fr">
+     
+       <label xml:lang="en">France</label>
+     
+       </enum><enum id="de">
+     
+       <label xml:lang="en">Germany</label>
+     
+       </enum><enum id="il">
+     
+       <label xml:lang="en">Israel</label>
+     
+       </enum><enum id="it">
+     
+       <label xml:lang="en">Italy</label>
+     
+       </enum><enum id="jp">
+     
+       <label xml:lang="en">Japan</label>
+     
+       </enum><enum id="kr">
+     
+       <label xml:lang="en">Korea</label>
+     
+       </enum><enum id="my">
+     
+       <label xml:lang="en">Malaysia</label>
+     
+       </enum><enum id="mt">
+     
+       <label xml:lang="en">Malta</label>
+     
+       </enum><enum id="mx">
+     
+       <label xml:lang="en">Mexico</label>
+     
+       </enum><enum id="nl">
+     
+       <label xml:lang="en">Netherlands</label>
+     
+       </enum><enum id="pe">
+     
+       <label xml:lang="en">Peru</label>
+     
+       </enum><enum id="pl">
+     
+       <label xml:lang="en">Poland</label>
+     
+       </enum><enum id="si">
+     
+       <label xml:lang="en">Slovenia</label>
+     
+       </enum><enum id="za">
+     
+       <label xml:lang="en">South Africa</label>
+     
+       </enum><enum id="es">
+     
+       <label xml:lang="en">Spain</label>
+     
+       </enum><enum id="se">
+     
+       <label xml:lang="en">Sweden</label>
+     
+       </enum><enum id="tw">
+     
+       <label xml:lang="en">Taiwan</label>
+     
+       </enum><enum id="uk">
+     
+       <label xml:lang="en">UK: England &amp; Wales</label>
+     
+       </enum><enum id="scotland">
+     
+       <label xml:lang="en">UK: Scotland</label>
+     
+       </enum>
+
+  </field>
+
+ </licenseclass>
+
+ 

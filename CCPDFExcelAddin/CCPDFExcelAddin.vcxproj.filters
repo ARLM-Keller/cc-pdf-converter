@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{55bf0b0b-c11c-4dbc-ad54-4875803ec8bb}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Created Files">
+      <UniqueIdentifier>{035d38f7-6b23-4128-af72-fd74af866606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{51638ece-8277-4791-95da-398a0dbe929d}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Common Files">
+      <UniqueIdentifier>{b1d50f3d-87d8-4dc4-85a7-6245544ed592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General Files">
+      <UniqueIdentifier>{5a24c9fc-b8da-4a2e-b74a-a5921bd752c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CCPDFExcelAddin.h">
+      <Filter>Source Files\Created Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCPDFExcelAddinObj.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="precomp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CCPDFVersion.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CCPrintData.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CCPrintRegistry.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CCTChar.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\XL2PDFVersion.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\General\CCRegistry.h">
+      <Filter>General Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\General\FileINI.h">
+      <Filter>General Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dlldatax.h">
+      <Filter>Source Files\Created Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CCPDFExcelAddin_i.c">
+      <Filter>Source Files\Created Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCPDFExcelAddin_p.c">
+      <Filter>Source Files\Created Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCPDFExcelAddin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCPDFExcelAddinObj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CCPrintData.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CCPrintRegistry.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CCTChar.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\General\CCRegistry.cpp">
+      <Filter>General Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\General\FileINI.cpp">
+      <Filter>General Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dlldatax.c">
+      <Filter>Source Files\Created Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="CCPDFExcelAddin.idl">
+      <Filter>Source Files</Filter>
+    </Midl>
+    <Midl Include="XL2PDFExcelAddin.idl">
+      <Filter>Source Files</Filter>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CCPDFExcelAddin.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CCPDFExcelAddin.tlb">
+      <Filter>Source Files\Created Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CCPDFExcelAddin.def">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="button.bmp">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CCPDFExcelAddin.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CCPDFExcelAddinObj.rgs">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="XL2PDFExcelAddin.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="XL2PDFExcelAddin.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="XL2PDFExcelAddinObj.rgs">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

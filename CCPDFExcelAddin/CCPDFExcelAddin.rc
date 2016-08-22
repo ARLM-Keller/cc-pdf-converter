@@ -1,0 +1,158 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "1 TYPELIB ""CCPDFExcelAddin.tlb""\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "\r\n"
+    "#ifdef CC_PDF_CONVERTER\r\n"
+    "#include ""CCPDFExcelAddin.rc2""\r\n"
+    "#else\r\n"
+    "#include ""XL2PDFExcelAddin.rc2""\r\n"
+    "#endif\r\n"
+    "\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BUTTON              BITMAP  DISCARDABLE     "button.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PROCESSING DIALOG DISCARDABLE  0, 0, 186, 66
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CLIPCHILDREN
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "Calculating data... Please wait....",IDC_TEXT,7,19,172,
+                    31
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_PROCESSING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 59
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// REGISTRY
+//
+
+#if defined(APSTUDIO_INVOKED) || defined(CC_PDF_CONVERTER)
+#if defined(APSTUDIO_INVOKED)
+IDR_CCPDFEXCELADDINOBJ$(CC_PDF_CONVERTER) REGISTRY DISCARDABLE    "CCPDFExcelAddinObj.rgs"
+#else
+IDR_CCPDFEXCELADDINOBJ  REGISTRY DISCARDABLE    "CCPDFExcelAddinObj.rgs"
+#endif
+#endif
+#if defined(APSTUDIO_INVOKED) || defined(EXCEL_TO_PDF)
+#if defined(APSTUDIO_INVOKED)
+IDR_CCPDFEXCELADDINOBJ$(EXCEL_TO_PDF) REGISTRY DISCARDABLE    "XL2PDFExcelAddinObj.rgs"
+#else
+IDR_CCPDFEXCELADDINOBJ  REGISTRY DISCARDABLE    "XL2PDFExcelAddinObj.rgs"
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PROJNAME            "CCPDFExcelAddin"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+1 TYPELIB "CCPDFExcelAddin.tlb"
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef CC_PDF_CONVERTER
+#include "CCPDFExcelAddin.rc2"
+#else
+#include "XL2PDFExcelAddin.rc2"
+#endif
+
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

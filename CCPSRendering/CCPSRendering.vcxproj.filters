@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{40ac8677-5179-4afe-8541-983a1d4462c6}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;h</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{1caa40f9-b314-4494-9881-386f6e92365c}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;rc</Extensions>
+    </Filter>
+    <Filter Include="Common Files">
+      <UniqueIdentifier>{3db36179-0d6b-48ae-aae8-32dc55b9b9e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DB Files">
+      <UniqueIdentifier>{8285fd62-28a9-4ef2-a723-5b0f6dd893c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DDK Headers">
+      <UniqueIdentifier>{019e0a0b-4bfc-4e79-abac-f6459080a286}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CCPSRendering.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlyphTranslator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intrface.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="oemps.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="precomp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextPart.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CCCommon.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CCPDFVersion.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CCPrintData.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CCPrintLicenseInfo.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CCPrintRegistry.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CCTChar.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\debug.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\devmode.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\General\FileINI.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\LicenseInfo.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libpng\png.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libpng\pngconf.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\General\PngImage.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\XL2PDFVersion.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\XMLite.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\zconf.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\zlib.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DB\sqlite3.h">
+      <Filter>DB Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DB\SQLiteDB.h">
+      <Filter>DB Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\WINDDK\2600.1106\inc\w2k\d3dnthal.h">
+      <Filter>DDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\WINDDK\2600.1106\inc\w2k\ddrawint.h">
+      <Filter>DDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\WINDDK\2600.1106\inc\w2k\prcomoem.h">
+      <Filter>DDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\WINDDK\2600.1106\inc\w2k\printoem.h">
+      <Filter>DDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\WINDDK\2600.1106\inc\w2k\winddi.h">
+      <Filter>DDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Helpers.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ddihook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllentry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GlyphTranslator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="intrface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="precomp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextPart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CCPrintData.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CCPrintLicenseInfo.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CCPrintRegistry.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CCTChar.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\debug.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\devmode.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\General\FileINI.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\LicenseInfo.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\General\PngImage.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\XMLite.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DB\sqlite3.c">
+      <Filter>DB Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DB\SQLiteDB.cpp">
+      <Filter>DB Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Helpers.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CCPSRendering.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CCPSRendering.def">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="XL2PDFPSRendering.def">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\By.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\ByNc.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\ByNcNd.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\ByNcSa.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\ByNd.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\BySa.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CCPDFPSRendering.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\Sampling.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\SamplingPlus.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\SamplingPlusNC.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\Somerights.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="XL2PDFPSRendering.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

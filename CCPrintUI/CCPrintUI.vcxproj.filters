@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3276db45-505e-4fd7-93dc-08404dc82225}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;h;def</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Pages">
+      <UniqueIdentifier>{ba0a8a80-4933-4a48-aea0-3176a38074b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pages\Print UI Pages">
+      <UniqueIdentifier>{cc2dc41e-6d24-4754-8fa3-58d9e3b0304a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pages\License Wizard">
+      <UniqueIdentifier>{7169a085-d69a-406c-b49d-0326b969078c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dialogs">
+      <UniqueIdentifier>{d0b6a73d-2585-4077-860d-745e1115ca9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{14447a13-6287-4493-a62a-2e4275f5c4f5}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;rc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\License cache">
+      <UniqueIdentifier>{f93ee6f1-6117-424e-96e3-3c5eff1c481e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\License Icons">
+      <UniqueIdentifier>{9ed9ed6c-6e11-45e0-867e-48453d30cebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\License Images">
+      <UniqueIdentifier>{57d419a8-e99c-4fb3-9f74-2f4fa97ff5f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Files">
+      <UniqueIdentifier>{7776b091-5245-4d1f-9706-76f7ad0276f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General Files">
+      <UniqueIdentifier>{879737ad-c05e-465a-9190-c254abbc87f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{759de657-17e6-4248-920a-2eac9c636488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DDK Headers">
+      <UniqueIdentifier>{1a56e818-17e0-430d-bb36-bd8499f27e54}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CCLicensePropPage.cpp">
+      <Filter>Source Files\Pages\Print UI Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="CCPDFPropPage.cpp">
+      <Filter>Source Files\Pages\Print UI Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="CCPrintUIPropPage.cpp">
+      <Filter>Source Files\Pages\Print UI Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="CCLicenseWizard.cpp">
+      <Filter>Source Files\Pages\License Wizard</Filter>
+    </ClCompile>
+    <ClCompile Include="CCLicenseWizBasePage.cpp">
+      <Filter>Source Files\Pages\License Wizard</Filter>
+    </ClCompile>
+    <ClCompile Include="CCLicenseWizJurisdictionPage.cpp">
+      <Filter>Source Files\Pages\License Wizard</Filter>
+    </ClCompile>
+    <ClCompile Include="CCLicenseWizModificationPage.cpp">
+      <Filter>Source Files\Pages\License Wizard</Filter>
+    </ClCompile>
+    <ClCompile Include="CCLicenseWizSamplingPage.cpp">
+      <Filter>Source Files\Pages\License Wizard</Filter>
+    </ClCompile>
+    <ClCompile Include="CCLicenseWizSummeryPage.cpp">
+      <Filter>Source Files\Pages\License Wizard</Filter>
+    </ClCompile>
+    <ClCompile Include="CCLicenseWizTypePage.cpp">
+      <Filter>Source Files\Pages\License Wizard</Filter>
+    </ClCompile>
+    <ClCompile Include="CCLicenseWizUsagePage.cpp">
+      <Filter>Source Files\Pages\License Wizard</Filter>
+    </ClCompile>
+    <ClCompile Include="CCPrintPropPage.cpp">
+      <Filter>Source Files\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="CCLicenseLocationDlg.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CCPrintDlg.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CCPrintProgressDlg.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CCLicenseLocationWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllentry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="intrface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LicenseInfoLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oemui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="precomp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CCPrintLicenseInfo.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CCPrintRegistry.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CCTChar.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\debug.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\devmode.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Helpers.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\LicenseInfo.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\XMLite.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\General\InternetRequest.cpp">
+      <Filter>General Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\General\PngImage.cpp">
+      <Filter>General Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\General\ProgressInterface.cpp">
+      <Filter>General Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CCLicensePropPage.h">
+      <Filter>Source Files\Pages\Print UI Pages</Filter>
+    </ClInclude>
+    <ClInclude Include="CCPDFPropPage.h">
+      <Filter>Source Files\Pages\Print UI Pages</Filter>
+    </ClInclude>
+    <ClInclude Include="CCPrintUIPropPage.h">
+      <Filter>Source Files\Pages\Print UI Pages</Filter>
+    </ClInclude>
+    <ClInclude Include="CCLicenseWizard.h">
+      <Filter>Source Files\Pages\License Wizard</Filter>
+    </ClInclude>
+    <ClInclude Include="CCLicenseWizBasePage.h">
+      <Filter>Source Files\Pages\License Wizard</Filter>
+    </ClInclude>
+    <ClInclude Include="CCLicenseWizJurisdictionPage.h">
+      <Filter>Source Files\Pages\License Wizard</Filter>
+    </ClInclude>
+    <ClInclude Include="CCLicenseWizModificationPage.h">
+      <Filter>Source Files\Pages\License Wizard</Filter>
+    </ClInclude>
+    <ClInclude Include="CCLicenseWizSamplingPage.h">
+      <Filter>Source Files\Pages\License Wizard</Filter>
+    </ClInclude>
+    <ClInclude Include="CCLicenseWizSummeryPage.h">
+      <Filter>Source Files\Pages\License Wizard</Filter>
+    </ClInclude>
+    <ClInclude Include="CCLicenseWizTypePage.h">
+      <Filter>Source Files\Pages\License Wizard</Filter>
+    </ClInclude>
+    <ClInclude Include="CCLicenseWizUsagePage.h">
+      <Filter>Source Files\Pages\License Wizard</Filter>
+    </ClInclude>
+    <ClInclude Include="CCPrintPropPage.h">
+      <Filter>Source Files\Pages</Filter>
+    </ClInclude>
+    <ClInclude Include="CCLicenseLocationDlg.h">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CCPrintDlg.h">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CCPrintProgressDlg.h">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CCLicenseLocationWnd.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCPrintUI.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intrface.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LicenseInfoLoader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="oemui.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="precomp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CCCommon.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CCPDFVersion.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CCPrintLicenseInfo.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CCPrintRegistry.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CCTChar.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\debug.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\devmode.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Helpers.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\LicenseInfo.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\XL2PDFVersion.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\XMLite.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\General\InternetRequest.h">
+      <Filter>General Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\General\PngImage.h">
+      <Filter>General Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\General\ProgressInterface.h">
+      <Filter>General Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libpng\png.h">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libpng\pngconf.h">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\zconf.h">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\zlib.h">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\WINDDK\2600.1106\inc\w2k\compstui.h">
+      <Filter>DDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\WINDDK\2600.1106\inc\w2k\d3dnthal.h">
+      <Filter>DDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\WINDDK\2600.1106\inc\w2k\ddrawint.h">
+      <Filter>DDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\WINDDK\2600.1106\inc\w2k\prcomoem.h">
+      <Filter>DDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\WINDDK\2600.1106\inc\w2k\printoem.h">
+      <Filter>DDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\WINDDK\2600.1106\inc\w2k\winddi.h">
+      <Filter>DDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\WINDDK\2600.1106\inc\w2k\winddiui.h">
+      <Filter>DDK Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CCPrintUI.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="CCPrintUI_CCPDFConverter.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="CCPrintUI_XL2PDFConverter.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CCPrintUI.def">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="XL2PDFPrintUI.def">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\CC-by-nc-nd.xml">
+      <Filter>Resource Files\License cache</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\CC-by-nc-sa.xml">
+      <Filter>Resource Files\License cache</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\CC-by-nc.xml">
+      <Filter>Resource Files\License cache</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\CC-by-nd.xml">
+      <Filter>Resource Files\License cache</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\CC-by-sa.xml">
+      <Filter>Resource Files\License cache</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\CC-by.xml">
+      <Filter>Resource Files\License cache</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\recombo.xml">
+      <Filter>Resource Files\License cache</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\Sampling.xml">
+      <Filter>Resource Files\License cache</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\SamplingPlus-nc.xml">
+      <Filter>Resource Files\License cache</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\SamplingPlus.xml">
+      <Filter>Resource Files\License cache</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\standard.xml">
+      <Filter>Resource Files\License cache</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\CC.ico">
+      <Filter>Resource Files\License Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\Derivative.ico">
+      <Filter>Resource Files\License Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\DevNations.ico">
+      <Filter>Resource Files\License Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\non-commercial.ico">
+      <Filter>Resource Files\License Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\PublicDomain.ico">
+      <Filter>Resource Files\License Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\Sampling.ico">
+      <Filter>Resource Files\License Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\SamplingPlus.ico">
+      <Filter>Resource Files\License Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\share_alike.ico">
+      <Filter>Resource Files\License Icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\By.png">
+      <Filter>Resource Files\License Images</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\ByNc.png">
+      <Filter>Resource Files\License Images</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\ByNcNd.png">
+      <Filter>Resource Files\License Images</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\ByNcSa.png">
+      <Filter>Resource Files\License Images</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\ByNd.png">
+      <Filter>Resource Files\License Images</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\BySa.png">
+      <Filter>Resource Files\License Images</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\Sampling.png">
+      <Filter>Resource Files\License Images</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\SamplingPlus.png">
+      <Filter>Resource Files\License Images</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\SamplingPlusNC.png">
+      <Filter>Resource Files\License Images</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\Somerights.png">
+      <Filter>Resource Files\License Images</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\attribution.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\General\res\cc.bmp">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CCPrintUI_CCPDFConverter.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CCPrintUI_XL2PDFConverter.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

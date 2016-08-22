@@ -1,0 +1,22 @@
+Building CC PDF Converter
+-------------------------
+
+In order to build CC PDF Converter, you will need, in addition to the files in this source ZIP,
+to download zlib and libpng from the following URLs:
+http://www.zlib.org
+http://www.libpng.org/pub/png/
+
+There is also a fix for a bug in Redmon that prevents users from printing using the current User;
+in order to use it, you must build remdon after downloading it from this link:
+http://pages.cs.wisc.edu/~ghost/redmon/
+and replacing the redmon.c file from the sources. The fix has been reported to the redmon author and
+will probably be added to the next release of the program.
+
+Additionally, in order for CC PDF Converter to add copyright/license information into the PDF file,
+we have made some additions to ghostscript PDF metadata creation function. In order to compile ghostscript
+using the additions, download ghostscript from http://www.cs.wisc.edu/~ghost/ (we used build 9.05), and replace
+the file(s) found in the ghostscript/src folder of the zip file.
+
+The zlib and png libraries should reside in the folders named after them.
+
+CC PDF Converter can be compiled using MSVC 2008 and MSVC 2010 (we used the compiler of 2008 as it supports Windows 2000, and the 2010 compliter does not).
